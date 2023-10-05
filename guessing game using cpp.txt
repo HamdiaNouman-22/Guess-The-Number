@@ -1,0 +1,19 @@
+#include<iostream>
+using namespace std;
+int main(){
+    int num=78;
+    int tries=1;
+    int ans;
+    while(tries<=5){
+    if(ans!=num){
+        cout<<"ENTER YOUR GUESS : "<<endl;
+        cin>>ans;
+        tries++;
+        }
+        if(ans==num){
+        cout<<"YOU GOT IT!\nSECRET NUMBER : "<<num<<""<<endl;
+        break;
+    }
+    }
+    
+}
